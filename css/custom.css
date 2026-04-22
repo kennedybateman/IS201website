@@ -1,0 +1,47 @@
+/* Needs !important to override Bootstrap */
+#sideNav {
+    background-color: #95b9ee !important;
+}
+
+.text-primary {
+    color: #95b9ee !important;
+}
+
+#about h1 span.text-primary {
+    color: #1a1a1a !important;
+}
+
+h1 {
+    color: #1a1a1a !important;
+    font-size: 75px !important;
+}
+
+.subheading a {
+    color: #95b9ee !important;
+}
+nav a, .social-icon {
+    color: #95b9ee !important;
+}
+
+/* These don't need !important */
+body {
+    color: #1a1a1a;
+    font-family: 'Muli', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Muli', sans-serif;
+}
+
+.subheading {
+    color: #95b9ee;
+}
+
+#sideNav .nav-link {
+    color: #ffffff !important;
+}
+
+.social-icon {
+    background-color: #95b9ee;
+    border: 2px solid #ffffff;
+}
